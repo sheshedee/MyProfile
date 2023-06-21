@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="25dp" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/lockscreen3" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="25dp"
+            android:text="Name" />
+
+
+        <TextView
+            android:id="@+id/textheight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="25dp"
+            android:text="Height" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textdob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="25dp"
+            android:text="dob" />
+
+        <TextView
+            android:id="@+id/textweight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="25dp"
+            android:text="Weight" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="25dp"
+            android:text="Age" />
+
+        <TextView
+            android:id="@+id/texthobby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="25dp"
+            android:text="Hobby" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</LinearLayout>
